@@ -9,6 +9,7 @@ import java.io.IOException;
 public class Chapter2 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+        request.setAttribute("subject", "JDBC");
         this.getServletContext().getRequestDispatcher("/chapter2/index.jsp").forward(request, response);
     }
 }

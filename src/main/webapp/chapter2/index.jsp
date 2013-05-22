@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h2>Hello JDBC!</h2>
+<h2>Hello ${requestScope['subject']}!</h2>
 <%
     Context context = new InitialContext();
     DataSource dataSource = (DataSource)context.lookup("java:comp/env/jdbc/continuousops");
