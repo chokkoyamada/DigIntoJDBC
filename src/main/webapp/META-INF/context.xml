@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Context displayName="DigIntoJDBC" docBase="continuousops"
+         path="continuousops" reloadable="true">
+    <Resource name="jdbc/continuousops" auth="Container"
+              type="javax.sql.DataSource" username="jdbcuser" password="jdbcuser"
+              driverClassName="org.gjt.mm.mysql.Driver"
+              url="jdbc:mysql://localhost/continuousops?useUnicode=true&amp;characterEncoding=UTF-8" maxActive="4" maxWait="5000" maxIdle="2"
+              validationQuery="SELECT 1" />
+</Context>
