@@ -19,6 +19,16 @@
         <artifactId>mysql-connector-java</artifactId>
         <version>5.1.23</version>
     </dependency>
+      <dependency>
+          <groupId>org.apache.tomcat.embed</groupId>
+          <artifactId>tomcat-embed-core</artifactId>
+          <version>7.0.34</version>
+      </dependency>
+      <dependency>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-webapp</artifactId>
+          <version>7.6.7.v20120910</version>
+      </dependency>
   </dependencies>
   <build>
     <finalName>DigIntoJDBC</finalName>
