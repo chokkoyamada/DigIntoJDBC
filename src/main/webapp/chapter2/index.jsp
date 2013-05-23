@@ -3,6 +3,7 @@
 <html>
 <body>
 <h2>Hello ${requestScope['subject']}!</h2>
-<p>${requestScope['message']}</p>
+<p>${requestScope['message1']}</p>
+<p>${requestScope['message2']}</p>
 </body>
 </html>
