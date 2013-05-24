@@ -1,18 +1,27 @@
 <!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">
-  <display-name>Archetype Created Web Application</display-name>
-<servlet>
-    <servlet-name>Chapter2</servlet-name>
-    <servlet-class>com.kirishikistudios.continuousops.digintojdbc.Chapter2</servlet-class>
-</servlet>
-<servlet-mapping>
-    <servlet-name>Chapter2</servlet-name>
-    <url-pattern>/chapter2</url-pattern>
-</servlet-mapping>
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>Chapter2</servlet-name>
+        <servlet-class>com.kirishikistudios.continuousops.digintojdbc.Chapter2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Chapter2</servlet-name>
+        <url-pattern>/chapter2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Chapter3</servlet-name>
+        <servlet-class>com.kirishikistudios.continuousops.digintojdbc.Chapter3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Chapter3</servlet-name>
+        <url-pattern>/chapter3</url-pattern>
+    </servlet-mapping>
 </web-app>
