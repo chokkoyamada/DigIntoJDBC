@@ -24,4 +24,13 @@
         <servlet-name>Chapter3</servlet-name>
         <url-pattern>/chapter3</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Chapter4</servlet-name>
+        <servlet-class>com.kirishikistudios.continuousops.digintojdbc.Chapter4</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Chapter4</servlet-name>
+        <url-pattern>/chapter4</url-pattern>
+    </servlet-mapping>
 </web-app>
